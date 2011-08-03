@@ -1,0 +1,259 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		343062EC13E8F6CC00D9EE90 /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 343062E713E8F6CC00D9EE90 /* JRSwizzle.m */; };
+		343062ED13E8F6CC00D9EE90 /* RRXcodeRemoteDeviceFixer.m in Sources */ = {isa = PBXBuildFile; fileRef = 343062E913E8F6CC00D9EE90 /* RRXcodeRemoteDeviceFixer.m */; };
+		343062EE13E8F6CC00D9EE90 /* xcodeRemoteDeviceFixer-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 343062EA13E8F6CC00D9EE90 /* xcodeRemoteDeviceFixer-Info.plist */; };
+		349EEBFA13E8FA050080BA69 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 349EEBF913E8FA040080BA69 /* README.txt */; };
+		34DCC83713E8CBBD00E68033 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34DCC83613E8CBBC00E68033 /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		343062E613E8F6CC00D9EE90 /* JRSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRSwizzle.h; sourceTree = "<group>"; };
+		343062E713E8F6CC00D9EE90 /* JRSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRSwizzle.m; sourceTree = "<group>"; };
+		343062E813E8F6CC00D9EE90 /* RRXcodeRemoteDeviceFixer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRXcodeRemoteDeviceFixer.h; sourceTree = "<group>"; };
+		343062E913E8F6CC00D9EE90 /* RRXcodeRemoteDeviceFixer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRXcodeRemoteDeviceFixer.m; sourceTree = "<group>"; };
+		343062EA13E8F6CC00D9EE90 /* xcodeRemoteDeviceFixer-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "xcodeRemoteDeviceFixer-Info.plist"; sourceTree = "<group>"; };
+		343062EB13E8F6CC00D9EE90 /* xcodeRemoteDeviceFixer-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "xcodeRemoteDeviceFixer-Prefix.pch"; sourceTree = "<group>"; };
+		349EEBF913E8FA040080BA69 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		34DCC83313E8CBBC00E68033 /* xcodeRemoteDeviceFixer.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xcodeRemoteDeviceFixer.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		34DCC83613E8CBBC00E68033 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		34DCC83913E8CBBD00E68033 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		34DCC83A13E8CBBD00E68033 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		34DCC83B13E8CBBD00E68033 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34DCC83013E8CBBC00E68033 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34DCC83713E8CBBD00E68033 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34DCC82813E8CBB800E68033 = {
+			isa = PBXGroup;
+			children = (
+				349EEBF913E8FA040080BA69 /* README.txt */,
+				343062E613E8F6CC00D9EE90 /* JRSwizzle.h */,
+				343062E713E8F6CC00D9EE90 /* JRSwizzle.m */,
+				343062E813E8F6CC00D9EE90 /* RRXcodeRemoteDeviceFixer.h */,
+				343062E913E8F6CC00D9EE90 /* RRXcodeRemoteDeviceFixer.m */,
+				343062EA13E8F6CC00D9EE90 /* xcodeRemoteDeviceFixer-Info.plist */,
+				343062EB13E8F6CC00D9EE90 /* xcodeRemoteDeviceFixer-Prefix.pch */,
+				34DCC83513E8CBBC00E68033 /* Frameworks */,
+				34DCC83413E8CBBC00E68033 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34DCC83413E8CBBC00E68033 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34DCC83313E8CBBC00E68033 /* xcodeRemoteDeviceFixer.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34DCC83513E8CBBC00E68033 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34DCC83613E8CBBC00E68033 /* Cocoa.framework */,
+				34DCC83813E8CBBD00E68033 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		34DCC83813E8CBBD00E68033 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34DCC83913E8CBBD00E68033 /* AppKit.framework */,
+				34DCC83A13E8CBBD00E68033 /* CoreData.framework */,
+				34DCC83B13E8CBBD00E68033 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34DCC83213E8CBBC00E68033 /* xcodeRemoteDeviceFixer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34DCC84513E8CBBD00E68033 /* Build configuration list for PBXNativeTarget "xcodeRemoteDeviceFixer" */;
+			buildPhases = (
+				34DCC82F13E8CBBC00E68033 /* Sources */,
+				34DCC83013E8CBBC00E68033 /* Frameworks */,
+				34DCC83113E8CBBC00E68033 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = xcodeRemoteDeviceFixer;
+			productName = xcodeRemoteDeviceFixer;
+			productReference = 34DCC83313E8CBBC00E68033 /* xcodeRemoteDeviceFixer.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34DCC82A13E8CBB800E68033 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Regular Rate and Rhythm Software";
+			};
+			buildConfigurationList = 34DCC82D13E8CBB800E68033 /* Build configuration list for PBXProject "xcodeRemoteDeviceFixer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 34DCC82813E8CBB800E68033;
+			productRefGroup = 34DCC83413E8CBBC00E68033 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34DCC83213E8CBBC00E68033 /* xcodeRemoteDeviceFixer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34DCC83113E8CBBC00E68033 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				343062EE13E8F6CC00D9EE90 /* xcodeRemoteDeviceFixer-Info.plist in Resources */,
+				349EEBFA13E8FA050080BA69 /* README.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34DCC82F13E8CBBC00E68033 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				343062EC13E8F6CC00D9EE90 /* JRSwizzle.m in Sources */,
+				343062ED13E8F6CC00D9EE90 /* RRXcodeRemoteDeviceFixer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		34DCC84313E8CBBD00E68033 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"-undefined",
+					suppress,
+					"-flat_namespace",
+				);
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		34DCC84413E8CBBD00E68033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"-undefined",
+					suppress,
+					"-flat_namespace",
+				);
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		34DCC84613E8CBBD00E68033 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "xcodeRemoteDeviceFixer/xcodeRemoteDeviceFixer-Prefix.pch";
+				INFOPLIST_FILE = "$(TARGET_NAME)-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		34DCC84713E8CBBD00E68033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "xcodeRemoteDeviceFixer/xcodeRemoteDeviceFixer-Prefix.pch";
+				INFOPLIST_FILE = "$(TARGET_NAME)-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34DCC82D13E8CBB800E68033 /* Build configuration list for PBXProject "xcodeRemoteDeviceFixer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34DCC84313E8CBBD00E68033 /* Debug */,
+				34DCC84413E8CBBD00E68033 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34DCC84513E8CBBD00E68033 /* Build configuration list for PBXNativeTarget "xcodeRemoteDeviceFixer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34DCC84613E8CBBD00E68033 /* Debug */,
+				34DCC84713E8CBBD00E68033 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34DCC82A13E8CBB800E68033 /* Project object */;
+}
