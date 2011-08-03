@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		343062EC13E8F6CC00D9EE90 /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 343062E713E8F6CC00D9EE90 /* JRSwizzle.m */; };
 		343062ED13E8F6CC00D9EE90 /* RRXcodeRemoteDeviceFixer.m in Sources */ = {isa = PBXBuildFile; fileRef = 343062E913E8F6CC00D9EE90 /* RRXcodeRemoteDeviceFixer.m */; };
-		343062EE13E8F6CC00D9EE90 /* xcodeRemoteDeviceFixer-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 343062EA13E8F6CC00D9EE90 /* xcodeRemoteDeviceFixer-Info.plist */; };
-		349EEBFA13E8FA050080BA69 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 349EEBF913E8FA040080BA69 /* README.txt */; };
 		34DCC83713E8CBBD00E68033 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34DCC83613E8CBBC00E68033 /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
@@ -134,8 +132,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				343062EE13E8F6CC00D9EE90 /* xcodeRemoteDeviceFixer-Info.plist in Resources */,
-				349EEBFA13E8FA050080BA69 /* README.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,7 +208,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "xcodeRemoteDeviceFixer/xcodeRemoteDeviceFixer-Prefix.pch";
+				GCC_PREFIX_HEADER = "xcodeRemoteDeviceFixer-Prefix.pch";
 				INFOPLIST_FILE = "$(TARGET_NAME)-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -224,7 +220,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "xcodeRemoteDeviceFixer/xcodeRemoteDeviceFixer-Prefix.pch";
+				GCC_PREFIX_HEADER = "xcodeRemoteDeviceFixer-Prefix.pch";
 				INFOPLIST_FILE = "$(TARGET_NAME)-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
 				PRODUCT_NAME = "$(TARGET_NAME)";
